@@ -51,11 +51,16 @@ return packer.startup(function(use)
     use { "hrsh7th/nvim-cmp", commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc" }       -- The completion plugin
 
     use {
-        'nvim-tree/nvim-tree.lua', -- 文档树
+        'nvim-tree/nvim-tree.lua',         -- 文档树
         requires = {
             'nvim-tree/nvim-web-devicons', -- 文档树图标
         }
     }
+
+    -- LSP
+    use { "neovim/nvim-lspconfig"}
+    use { "williamboman/mason.nvim"}
+    use { "williamboman/mason-lspconfig.nvim"}
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

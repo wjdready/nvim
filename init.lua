@@ -9,3 +9,6 @@ require "plugins.nvim-tree"
 
 require "plugins.colorscheme"
 
+require "plugins.lsp"
+
+

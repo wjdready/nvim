@@ -10,7 +10,7 @@ opt.shiftwidth = 4                      -- 缩进宽度, 按 Tab 键插入 4 个
 opt.expandtab = true                    -- 按下 Tab 键时，Vim 将插入空格而不是制表符
 opt.autoindent = true                   -- 自动缩进, 自动根据上一行的缩进级别进行缩进
 
--- opt.wrap = false                     -- 自动换行
+opt.wrap = false                        -- 自动换行
 opt.cursorline = true                   -- 光标行高亮
 opt.mouse:append("a")                   -- 启用鼠标
 opt.clipboard:append("unnamedplus")     -- 系统剪贴板
